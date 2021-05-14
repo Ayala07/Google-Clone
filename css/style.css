@@ -7,3 +7,54 @@
 html{
     font-size: 62.5%;
 }
+
+header{
+    width: 100vw;
+    height: 50px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 1.3rem;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav .nav__ul{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    padding-left: 15px;
+}
+
+.nav__ul a{
+    margin-right: 10px;
+    color: #000;
+}
+
+.menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    margin-left: 24px;
+}
+
+.menu-photo img{
+    border-radius: 50%;
+    margin-left: 19px;
+}
