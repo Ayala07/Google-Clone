@@ -81,7 +81,7 @@ main{
 }
 
 .main-input__container{
-    width: 525px;
+    width: auto;
     border-radius: 100px;
     border: 1px solid #dfe1e5;
     display: flex;
@@ -120,3 +120,29 @@ main{
     border-color: #dfe1e500;
 }
 
+.main-buttons{
+    width: auto;
+    margin: 0 auto;
+}
+
+.main-buttons div{
+    display: inline-block;
+}
+
+.main-buttons button{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+.main-buttons button:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    color: #202124;
+    background-color: #f8f9fa;
+}
